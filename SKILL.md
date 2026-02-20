@@ -16,7 +16,7 @@ Follow these steps strictly.
 - 1,000 words ≈ 1,300–1,500 tokens
 - Plain text ≈ 4 characters per token
 - 100 KB ≈ 25,000 tokens
-- Code density ≈ 1.5× normal text
+- Code density ≈ 1.5× text
 - Markdown adds 10–20% overhead
 
 If iterative refinement expected:
@@ -52,38 +52,26 @@ Estimated Cost =
 (Input Tokens × Input Price per Token) +
 (Output Tokens × Output Price per Token)
 
-Always provide:
-- Token Estimate
-- Cost Estimate
-- Assumptions
-
 ## 6. Confidence Bands
 
 Very Low (<40%)  
 Low (40–60%)  
 Medium (60–80%)  
-High (80–100%)
+High (80–100%)  
 
 Never assign 100%.
 
 ## 7. Sensitivity Analysis (Permission Required)
 
-Vary:
-- Output ±30–50%
-- Iteration multiplier
-- Tool overhead
+Vary output, iterations, and tool overhead.
 
 ## 8. Break-Even (Permission Required)
 
-Compare:
-- Cost per 1M tokens
-- Break-even thresholds
+Compare cost per 1M tokens and scale thresholds.
 
 ## 9. Model Recommendation
 
-Select lowest-cost model that safely satisfies context and reasoning.
-
-Never auto-switch.
+Select lowest-cost safe model.
 
 ## 10. CSV Export (Permission Required)
 
